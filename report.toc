@@ -1,0 +1,22 @@
+\select@language {ngerman}
+\contentsline {section}{\numberline {1}概念}{2}{section.1}
+\contentsline {subsection}{\numberline {1.1}研究背景与意义}{2}{subsection.1.1}
+\contentsline {subsubsection}{\numberline {1.1.1}研究背景}{2}{subsubsection.1.1.1}
+\contentsline {subsubsection}{\numberline {1.1.2}研究作用与意义}{2}{subsubsection.1.1.2}
+\contentsline {section}{\numberline {2}目标}{3}{section.2}
+\contentsline {subsection}{\numberline {2.1}股票分层工具}{3}{subsection.2.1}
+\contentsline {subsection}{\numberline {2.2}巩固数据结构基础}{3}{subsection.2.2}
+\contentsline {subsection}{\numberline {2.3}训练相关算法}{3}{subsection.2.3}
+\contentsline {subsection}{\numberline {2.4}项目与工具}{3}{subsection.2.4}
+\contentsline {section}{\numberline {3}知识与应用}{4}{section.3}
+\contentsline {subsection}{\numberline {3.1}数据结构基础应用}{4}{subsection.3.1}
+\contentsline {subsubsection}{\numberline {3.1.1}向量}{4}{subsubsection.3.1.1}
+\contentsline {subsubsection}{\numberline {3.1.2}图}{4}{subsubsection.3.1.2}
+\contentsline {subsubsection}{\numberline {3.1.3}最小生成树}{4}{subsubsection.3.1.3}
+\contentsline {subsection}{\numberline {3.2}自动化项目管理知识应用}{4}{subsection.3.2}
+\contentsline {subsubsection}{\numberline {3.2.1}Make工具}{4}{subsubsection.3.2.1}
+\contentsline {section}{\numberline {4}方法}{5}{section.4}
+\contentsline {subsection}{\numberline {4.1}编程与写作环境}{5}{subsection.4.1}
+\contentsline {subsection}{\numberline {4.2}贪心算法求最小生成树}{5}{subsection.4.2}
+\contentsline {subsection}{\numberline {4.3}开源支持}{5}{subsection.4.3}
+\contentsline {subsubsection}{\numberline {4.3.1}股票数据调取项目——Tushare}{5}{subsubsection.4.3.1}

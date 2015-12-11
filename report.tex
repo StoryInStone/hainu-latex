@@ -1,0 +1,67 @@
+% !TEX encoding = UTF-8 Unicode
+\documentclass{report}
+
+\title{基于最小生成树的股票分层结构图绘制方法——以沪深300为例}
+\title{Hello World}
+\author{sscsac}
+\date{\today}
+	
+% big font for sections
+\usepackage{sectsty}
+\sectionfont{\LARGE}
+
+\usepackage{graphicx}
+\usepackage{wrapfig}
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage{listings}
+\usepackage{hyperref}
+\usepackage{parskip}
+\usepackage{CJKutf8}
+
+% \begin{comment} ... \end{comment{}
+\usepackage{verbatim}
+
+\setlength{\parskip}{0pt}
+
+%makeatletter
+%renewcommand{\paragraph}{
+% \@startsection{paragraph}{4}
+%   {\z@}{1.25ex \@plus 1ex \@minus .2ex}{-1em}
+%     {\normalfont\normalsize\bfseries}
+%     }
+%     \makeatother
+
+
+
+
+
+\begin{document}
+\begin{CJK}{UTF8}{gbsn}
+
+\newpage
+
+\maketitle
+
+\newpage
+
+\renewcommand{\contentsname}{目录}
+\tableofcontents
+
+
+%=================
+%你好，我是中国人！
+\include{sections/concept}
+\include{sections/target}
+\include{sections/knowledgement}
+\include{sections/method}
+
+
+%=================
+\nocite{*} 
+
+\bibliographystyle{acm}
+\bibliography{publications}
+
+\end{CJK}
+\end{document}
