@@ -1,6 +1,6 @@
 all:	once
 
-once: 	
+once: 
 	pdflatex report.tex
 	
 alert: 	

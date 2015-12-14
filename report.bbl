@@ -1,9 +1,7 @@
 \begin{thebibliography}{1}
 
 \bibitem{Farrell}
-{\sc Turing, A.~M.}
-\newblock On computable numbers, with an application to the
-  entscheidungsproblem.
-\newblock {\em J. of Math 58}, 345-363 (1936), 5.
+卢俊星, ``这是一个测试,'' {\em J. of Math}, vol.~58, no.~345-363,
+  p.~5, 1936.
 
 \end{thebibliography}

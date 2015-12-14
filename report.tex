@@ -1,9 +1,8 @@
 % !TEX encoding = UTF-8 Unicode
 \documentclass{report}
 
-\title{基于最小生成树的股票分层结构图绘制方法——以沪深300为例}
-\title{Hello World}
-\author{sscsac}
+\title{基于最小生成树的股票分层工具——以沪深300为例}
+\author{卢俊星}
 \date{\today}
 	
 % big font for sections
@@ -18,23 +17,37 @@
 \usepackage{hyperref}
 \usepackage{parskip}
 \usepackage{CJKutf8}
+\usepackage{algorithm}
+\usepackage{algpseudocode}
+\usepackage{pifont}
+\usepackage{xcolor}
 
 % \begin{comment} ... \end{comment{}
 \usepackage{verbatim}
 
+
+\lstset{
+numbers=left,
+numbersep=5pt,
+language=C++,
+breaklines,
+backgroundcolor=\color{black!5},
+basicstyle=\footnotesize,
+basicstyle=\ttfamily,
+keywordstyle=\color{blue},
+stringstyle=\color{red},
+keepspaces=true,
+}
+
 \setlength{\parskip}{0pt}
 
-%makeatletter
-%renewcommand{\paragraph}{
-% \@startsection{paragraph}{4}
-%   {\z@}{1.25ex \@plus 1ex \@minus .2ex}{-1em}
-%     {\normalfont\normalsize\bfseries}
-%     }
-%     \makeatother
-
-
-
-
+\makeatletter
+\renewcommand{\paragraph}{
+\@startsection{paragraph}{4}
+{\z@}{1.25ex \@plus 1ex \@minus .2ex}{-1em}
+{\normalfont\normalsize\bfseries}
+}
+\makeatother
 
 \begin{document}
 \begin{CJK}{UTF8}{gbsn}
@@ -50,17 +63,17 @@
 
 
 %=================
-%你好，我是中国人！
 \include{sections/concept}
 \include{sections/target}
 \include{sections/knowledgement}
 \include{sections/method}
-
+\include{sections/source}
 
 %=================
 \nocite{*} 
 
-\bibliographystyle{acm}
+\renewcommand{\refname}{参考文献}
+\bibliographystyle{ieeetr}
 \bibliography{publications}
 
 \end{CJK}
